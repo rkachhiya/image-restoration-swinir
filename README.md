@@ -133,15 +133,3 @@ python train.py --config configs/config.yaml --work_dir work_dir
 - Performance bounded by **3,200 training images**; larger or more diverse datasets may improve generalization
 - LPIPS score (0.2688) reflects grayscale-domain evaluation on small (128×128) images; perceptual quality may differ from natural-image benchmarks
 
-## Submission Checklist
-- [x] Standalone inference script (`evaluate.py`) with `--input_dir` and `--output_dir`
-- [x] Model weights included (`weights/best_model.pt`, 26.8 MB)
-- [x] Training code reproducible (`train.py` + `configs/config.yaml`)
-- [x] Environment specification (`requirements.txt`)
-- [x] PSNR, SSIM, LPIPS reported on validation hold-out
-- [x] Baseline comparison (Bicubic + Median)
-- [x] End-to-end runtime documented
-- [x] Random seeds tracked
-- [x] External resources disclosed
-- [x] Output clipped to [0,1] before saving
-- [x] Filename preservation implemented
