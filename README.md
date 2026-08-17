@@ -1,9 +1,5 @@
 # KLA Hackathon 2026 — AI-Based Image Restoration for Semiconductor Inspection
 
-## Team
-- [Your Name] — Team Leader ([Your College])
-- Rachit Kachhiya ([Your College])
-
 ## Problem
 Restore degraded semiconductor inspection images affected by three simultaneous degradations applied in random order:
 - **Speckle noise** — multiplicative grain, pushes pixel values beyond true range
