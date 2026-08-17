@@ -1,0 +1,52 @@
+# Data files (KLA dataset - not for distribution)
+data/
+*.npy
+*.png
+*.jpg
+*.tif
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated files
+*.json
+*.log
+*_out/
+*_fresh/
+*_warmup/
+val_pred/
+baseline_out/
+test_out/
+final_check/
+final_verify/
+bench_out/
+
+# Training artifacts
+work_dir/
+work_dir_gan/
+checkpoints/
+runs/
+tensorboard/
+outputs/
+results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep only essential checkpoint
+!weights/
+!weights/best_model.pt
